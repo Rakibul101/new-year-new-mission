@@ -95,22 +95,90 @@
     font-size: 64px;
     font-weight: 900;
 }
-.welcome-description{
-    color:#ffffffcc;
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-margin-top: 24px;
+
+.welcome-description {
+    color: #ffffffcc;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
 }
-.btn-primary{
+
+.btn-primary {
     margin-top: 24px;
     padding: 15px 24px;
-    background-color:black;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 }
-.btn-primary:hover{
-    background-color:#8F4941;
+
+.btn-primary:hover {
+    background-color: #8F4941;
+}
+
+.party-photo {
+    mix-blend-mode: normal;
+}
+
+/* offer section styles */
+.offer-container {
+    width: 1320px;
+    height: 490px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-text {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.share-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.share-paragraph {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img-design {
+    border: 15px solid #f00;
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.ellipse-img {
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+.design-year {
+    margin-top: 170px;
+    margin-bottom: 10px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.text-line{
+    margin-bottom: 40px;
 }
