@@ -223,6 +223,7 @@
 }
 
 /* subscribe section design */
+
 .subscribe-container {
     width: 1320px;
     margin: 100px auto;
@@ -262,6 +263,8 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+/* footer section start */
 
 .footer-container {
     width: 1519px;
